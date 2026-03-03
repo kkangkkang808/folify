@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "Generate polished portfolio HTML/CSS and PDF from structured JSON",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "bin": {
-    "folify": "dist/cli/index.js"
+    "folify": "dist/src/cli/index.js"
   },
   "engines": {
     "node": ">=18"
