@@ -4,6 +4,8 @@
 
 User prepares a `portfolio.json` file that satisfies exported `FolifyDoc` TypeScript type.
 
+Example reference: `examples/portfolio.json`.
+
 ## 2) Build portfolio artifacts
 
 User runs:
@@ -14,8 +16,8 @@ npx folify build ./portfolio.json --out ./dist
 
 System actions:
 1. Reads JSON input.
-2. Validates/parses into internal typed structure.
-3. Renders HTML/CSS.
+2. Validates required shape (`meta.version`, profile basics).
+3. Renders polished HTML/CSS.
 4. Exports PDF by default.
 5. Writes artifacts to output directory.
 

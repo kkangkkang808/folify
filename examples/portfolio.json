@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "version": "1.0"
+  },
+  "profile": {
+    "name": "Minji Park",
+    "role": "Product Designer & Front-end Engineer",
+    "summary": "Designs and ships practical interfaces that balance aesthetics, clarity, and measurable outcomes.",
+    "email": "minji@example.com",
+    "location": "Seoul, KR",
+    "links": [
+      { "label": "Portfolio", "url": "https://example.com" },
+      { "label": "GitHub", "url": "https://github.com/example" }
+    ]
+  },
+  "skills": [
+    { "category": "Design", "items": ["Figma", "Design Systems", "Prototyping"] },
+    { "category": "Engineering", "items": ["TypeScript", "React", "Node.js"] }
+  ],
+  "experience": [
+    {
+      "company": "Studio North",
+      "title": "Senior Product Designer",
+      "start": "2021",
+      "end": "Present",
+      "highlights": [
+        "Led redesign for onboarding that improved activation by 18%.",
+        "Built reusable component guidelines used by 4 product squads."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Insight Dashboard",
+      "description": "Analytics dashboard for SaaS teams with clear KPI storytelling.",
+      "stack": ["TypeScript", "D3", "Node.js"],
+      "highlights": ["Cut time-to-insight through progressive disclosure patterns."]
+    }
+  ],
+  "education": [
+    {
+      "school": "Hongik University",
+      "degree": "BFA, Visual Communication Design",
+      "start": "2014",
+      "end": "2018"
+    }
+  ]
+}
